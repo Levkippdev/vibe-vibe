@@ -14,29 +14,49 @@ function isMirroredChinesePath(path: string) {
   return mirroredSectionPrefixes.some((prefix) => path.startsWith(prefix))
 }
 
-const isEnglish = computed(() => route.path.startsWith('/en/') || route.path === '/')
+const isEnglish = computed(() => route.path.startsWith('/en/') || (route.path === '/' ? true : false))
+
+const isRussian = computed(() => route.path.startsWith('/ru/'))
+
+function stripLocale(path: string) {
+  if (path.startsWith('/en/')) return path.slice(3)
+  if (path.startsWith('/ru/')) return path.slice(4)
+  return path
+}
 
 const englishHref = computed(() => {
   const path = route.path
 
-  if (path === '/' || path === '/en/' || path === '/zh/') return '/en/'
-
-  if (path.startsWith('/zh/')) return '/en/'
+  if (path === '/' || path === '/en/' || path === '/zh/' || path === '/ru/') return '/en/'
 
   if (path.startsWith('/en/')) return path
 
-  if (isMirroredChinesePath(path)) return `/en${path}`
+  const stripped = stripLocale(path)
+
+  if (isMirroredChinesePath(stripped)) return `/en${stripped}`
 
   return '/en/'
+})
+
+const russianHref = computed(() => {
+  const path = route.path
+
+  if (path === '/' || path === '/en/' || path === '/zh/' || path === '/ru/') return '/ru/'
+
+  const stripped = stripLocale(path)
+
+  if (isMirroredChinesePath(stripped)) return `/ru${stripped}`
+
+  return '/ru/'
 })
 
 const chineseHref = computed(() => {
   const path = route.path
 
-  if (path === '/' || path === '/zh/') return '/zh/'
+  if (path === '/' || path === '/zh/' || path === '/en/' || path === '/ru/') return '/zh/'
 
-  if (path.startsWith('/en/')) {
-    const stripped = path.slice(3)
+  if (path.startsWith('/en/') || path.startsWith('/ru/')) {
+    const stripped = stripLocale(path)
     return isMirroredChinesePath(stripped) ? stripped : '/zh/'
   }
 
@@ -57,9 +77,18 @@ const chineseHref = computed(() => {
     <span class="locale-switch__divider">/</span>
     <a
       class="locale-switch__link"
-      :class="{ 'locale-switch__link--active': !isEnglish }"
+      :class="{ 'locale-switch__link--active': isRussian }"
+      :href="russianHref"
+      :aria-current="isRussian ? 'page' : undefined"
+    >
+      RU
+    </a>
+    <span class="locale-switch__divider">/</span>
+    <a
+      class="locale-switch__link"
+      :class="{ 'locale-switch__link--active': !isEnglish && !isRussian }"
       :href="chineseHref"
-      :aria-current="!isEnglish ? 'page' : undefined"
+      :aria-current="!isEnglish && !isRussian ? 'page' : undefined"
     >
       中文
     </a>

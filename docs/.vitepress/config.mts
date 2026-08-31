@@ -244,6 +244,94 @@ export default withMermaid(defineConfigWithTheme<DefaultTheme.Config>({
         lightModeSwitchTitle: 'Switch to light mode',
         darkModeSwitchTitle: 'Switch to dark mode',
       }
+    },
+    ru: {
+      label: 'Русский',
+      lang: 'ru-RU',
+      title: 'VibeVibe',
+      description: 'Систематический туториал по Vibe Coding: от идеи до работающего продукта с помощью AI. Русская версия (нарратив переведён, термины и код — на английском).',
+      link: '/ru/',
+      themeConfig: {
+        nav: [
+          { text: 'Главная', link: '/ru/' },
+          {
+            text: 'Основы',
+            items: [
+              { text: 'Добро пожаловать в «Основы»', link: '/ru/Basic/' },
+              { text: '0. Прежде чем начать: что вы соберёте, как учиться и что делать, если застряли', link: '/ru/Basic/00-preface/' },
+              { text: '1. Первая версия: personal homepage + digital twin за 2 часа', link: '/ru/Basic/01-awakening/' },
+              { text: '2. Вернуть на своё рабочее место: с платформы на локальную машину', link: '/ru/Basic/02-mindset/' },
+              { text: '3. Произвести первое впечатление: interface, style и более точная постановка задачи', link: '/ru/Basic/03-technique/' },
+              { text: '4. Дополнить homepage: контент, навигация и базовое хранение данных', link: '/ru/Basic/04-practice-0-to-1/' },
+              { text: '5. Настроить digital twin под себя: persona, ответы и debugging', link: '/ru/Basic/05-advanced/' },
+              { text: '6. Официальный запуск: deploy, шаринг и первая настоящая обратная связь', link: '/ru/Basic/06-launch/' },
+              { text: 'Приложения', link: '/ru/Basic/99-appendix/' },
+              { text: 'Заключение', link: '/ru/Basic/100-epilogue/' },
+              { text: 'Анонс следующей части', link: '/ru/Basic/101-next-part/' },
+            ]
+          },
+          {
+            text: 'Продвинутый курс',
+            items: [
+              { text: 'Пролог — 100 часов от идеи до продукта', link: '/ru/Advanced/' },
+              { text: '01-Настройка окружения', link: '/ru/Advanced/01-environment-setup/' },
+              { text: '02-Как использовать AI', link: '/ru/Advanced/02-ai-tuning-guide/' },
+              { text: '03-От требований к документации', link: '/ru/Advanced/03-prd-doc-driven/' },
+              { text: '04-Разработческий минимум', link: '/ru/Advanced/04-dev-fundamentals/' },
+              { text: '05-Красивые и удобные интерфейсы', link: '/ru/Advanced/05-ui-ux/' },
+              { text: '06-Где хранить данные', link: '/ru/Advanced/06-data-persistence-database/' },
+              { text: '07-Связка frontend и backend', link: '/ru/Advanced/07-backend-api/' },
+              { text: '08-Кто имеет доступ к моим данным', link: '/ru/Advanced/08-auth-security/' },
+              { text: '09-Тестирование функций', link: '/ru/Advanced/09-testing-automation/' },
+              { text: '10-Публичный доступ', link: '/ru/Advanced/10-localhost-public-access/' },
+              { text: '11-Совместная разработка', link: '/ru/Advanced/11-git-collaboration/' },
+              { text: '12-Serverless-деплой и CI/CD', link: '/ru/Advanced/12-serverless-deploy-cicd/' },
+              { text: '13-Domain, DNS и подключение', link: '/ru/Advanced/13-domain-dns/' },
+              { text: '14-Деплой на сервер', link: '/ru/Advanced/14-vps-ops-deploy/' },
+              { text: '15-SEO, шаринг и аналитика', link: '/ru/Advanced/15-seo-analytics/' },
+              { text: '16-Обратная связь и итерации продукта', link: '/ru/Advanced/16-user-feedback-iteration/' },
+              { text: 'Next Level', link: '/ru/Advanced/99-next-level/' },
+            ]
+          },
+          {
+            text: 'Статьи',
+            items: [
+              { text: 'Обзор', link: '/ru/Articles/' },
+              { text: 'Ядро: концепции и смена парадигм', link: '/ru/Articles/01-core-concepts/' },
+              { text: 'Техническая архитектура', link: '/ru/Articles/02-technical-architecture/' },
+              { text: 'Toolchain и фреймворки', link: '/ru/Articles/03-toolchain-frameworks/' },
+              { text: 'Инженерные практики и качество', link: '/ru/Articles/04-engineering-practices/' },
+              { text: 'Безопасность, compliance и ограничения', link: '/ru/Articles/05-security-compliance/' },
+              { text: 'Бизнес-применения и тренды', link: '/ru/Articles/06-business-trends/' },
+            ]
+          },
+          {
+            text: 'Практика',
+            link: '/ru/Practice/'
+          },
+          { component: 'LocaleSwitch' },
+        ],
+        docFooter: {
+          prev: 'Предыдущий урок',
+          next: 'Следующий урок'
+        },
+        outline: {
+          label: 'На этой странице',
+          level: [2, 3]
+        },
+        lastUpdated: {
+          text: 'Обновлено',
+          formatOptions: {
+            dateStyle: 'short',
+            timeStyle: 'short'
+          }
+        },
+        returnToTopLabel: 'Наверх',
+        sidebarMenuLabel: 'Меню',
+        darkModeSwitchLabel: 'Тема',
+        lightModeSwitchTitle: 'Светлая тема',
+        darkModeSwitchTitle: 'Тёмная тема',
+      }
     }
   },
   
@@ -283,6 +371,7 @@ export default withMermaid(defineConfigWithTheme<DefaultTheme.Config>({
 
     // 语言和作者链接（SEO增强）
     ['link', { rel: 'alternate', hreflang: 'en-US', href: `${SITE_URL}/en/` }],
+    ['link', { rel: 'alternate', hreflang: 'ru-RU', href: `${SITE_URL}/ru/` }],
     ['link', { rel: 'alternate', hreflang: 'zh-CN', href: `${SITE_URL}/zh/` }],
     ['link', { rel: 'alternate', hreflang: 'x-default', href: `${SITE_URL}/` }],
     ['link', { rel: 'author', href: 'https://github.com/datawhalechina/vibe-vibe/graphs/contributors' }],
@@ -877,7 +966,7 @@ Allow: /security.txt
         hyphenToSpace: true,
         sortMenusByFrontmatterOrder: true,
         frontmatterOrderDefaultValue: 9999,
-          excludeFolders: ['en', 'zh', 'public', 'assets', '.vitepress', '.claude', 'deployment'],
+          excludeFolders: ['en', 'zh', 'public', 'assets', '.vitepress', '.claude', 'deployment', 'ru'],
 
         manualSortFileNameByPriority: [
           'Basic', 'Advanced', 'Practice', 'Articles', 'Basic-old',
@@ -903,6 +992,36 @@ Allow: /security.txt
         documentRootPath: 'docs',
         scanStartPath: 'en',
         resolvePath: '/en/',
+        useTitleFromFrontmatter: true,
+        useTitleFromFileHeading: true,
+        useFolderTitleFromIndexFile: true,
+        useFolderLinkFromIndexFile: true,
+        hyphenToSpace: true,
+        sortMenusByFrontmatterOrder: true,
+        frontmatterOrderDefaultValue: 9999,
+
+        manualSortFileNameByPriority: [
+          'Basic', 'Advanced', 'Practice', 'Articles',
+          'Basic/00-preface', 'Basic/01-awakening', 'Basic/02-mindset', 'Basic/03-technique',
+          'Basic/04-practice-0-to-1', 'Basic/05-advanced', 'Basic/06-learning-paths',
+          'Basic/99-appendix', 'Basic/100-epilogue', 'Basic/101-next-part',
+          'Advanced/01-environment-setup', 'Advanced/02-ai-tuning-guide', 'Advanced/03-prd-doc-driven',
+          'Advanced/04-dev-fundamentals', 'Advanced/05-ui-ux', 'Advanced/06-data-persistence-database',
+          'Advanced/07-backend-api', 'Advanced/08-auth-security', 'Advanced/09-testing-automation',
+          'Advanced/10-localhost-public-access', 'Advanced/11-git-collaboration', 'Advanced/12-serverless-deploy-cicd',
+          'Advanced/13-domain-dns', 'Advanced/14-vps-ops-deploy', 'Advanced/15-seo-analytics', 'Advanced/16-user-feedback-iteration',
+          'Advanced/99-next-level',
+          'Articles/01-core-concepts', 'Articles/02-technical-architecture', 'Articles/03-toolchain-frameworks',
+          'Articles/04-engineering-practices', 'Articles/05-security-compliance', 'Articles/06-business-trends',
+        ],
+
+        collapsed: true,
+        excludePattern: ['public', 'assets', 'docs'],
+      },
+      {
+        documentRootPath: 'docs',
+        scanStartPath: 'ru',
+        resolvePath: '/ru/',
         useTitleFromFrontmatter: true,
         useTitleFromFileHeading: true,
         useFolderTitleFromIndexFile: true,
@@ -968,6 +1087,22 @@ Allow: /security.txt
                 footer: {
                   selectText: 'Select',
                   navigateText: 'Navigate'
+                }
+              }
+            }
+          },
+          ru: {
+            translations: {
+              button: {
+                buttonText: 'Поиск по документации',
+                buttonAriaLabel: 'Поиск по документации'
+              },
+              modal: {
+                noResultsText: 'Ничего не найдено',
+                resetButtonTitle: 'Очистить запрос',
+                footer: {
+                  selectText: 'Выбрать',
+                  navigateText: 'Переключить'
                 }
               }
             }

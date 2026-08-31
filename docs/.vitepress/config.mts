@@ -67,6 +67,10 @@ export default withMermaid(defineConfigWithTheme<DefaultTheme.Config>({
   // 排除 docs/docs 目录不构建
   srcExclude: ['**/docs/**'],
 
+  // Русская локализация в процессе: ссылки на ещё не переведённые /ru/ страницы
+  // не считаем dead links — они станут живыми по мере перевода (PROGRESS.md).
+  ignoreDeadLinks: [/^\/ru\//],
+
   // i18n 配置
   locales: {
     root: {

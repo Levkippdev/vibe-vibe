@@ -13,12 +13,12 @@
 
 | Раздел | Переведено / Всего | %
 |---|---|---|
-| Basic | 26 / 47 | 55%
+| Basic | 31 / 47 | 66%
 | Advanced | 0 / 101 | 0%
 | Articles | 0 / 48 | 0%
 | Practice | 0 / 5 | 0%
 
-Курсор следующего пакета: `Basic/05-advanced/` (5 файлов).
+Курсор следующего пакета: `Basic/06-launch/` (5 файлов).
 
 ## Basic — карта уроков
 
@@ -50,11 +50,11 @@
 | 04-practice-0-to-1/4.2-build-page.md | translated | 2026-09-01 | pending |
 | 04-practice-0-to-1/4.3-core-features.md | translated | 2026-09-01 | pending |
 | 04-practice-0-to-1/4.4-data-storage.md | translated | 2026-09-01 | pending |
-| 05-advanced/index.md | TODO | — | — |
-| 05-advanced/5.1-version-control.md | TODO | — | — |
-| 05-advanced/5.2-deployment.md | TODO | — | — |
-| 05-advanced/5.3-security.md | TODO | — | — |
-| 05-advanced/5.4-iteration.md | TODO | — | — |
+| 05-advanced/index.md | translated | 2026-09-01 | — |
+| 05-advanced/5.1-version-control.md | translated | 2026-09-01 | pending |
+| 05-advanced/5.2-deployment.md | translated | 2026-09-01 | pending |
+| 05-advanced/5.3-security.md | translated | 2026-09-01 | pending |
+| 05-advanced/5.4-iteration.md | translated | 2026-09-01 | pending |
 | 06-launch/index.md | TODO | — | — |
 | 06-launch/6.1-preflight.md | TODO | — | — |
 | 06-launch/6.2-deploy.md | TODO | — | — |
@@ -91,7 +91,7 @@
 
 ## Примечания
 
-- Steps-файлы визарда: глава 0 — `00-preface.md`; глава 1 — `01-1...01-4` (по уроку); глава 2 — единый `02-local.md`; глава 3 — единый `03-style.md`; глава 4 — единый `04-content.md` (snapshot → взгляд посетителя → выбор 2–3 модулей → навигация чата).
+- Steps-файлы визарда: глава 0 — `00-preface.md`; глава 1 — `01-1...01-4` (по уроку); главы 2–5 — единые файлы: `02-local.md`, `03-style.md`, `04-content.md`, `05-twin.md`.
 - Vue-компоненты в Advanced-уроках при переводе сохраняются как есть; их китайский UI — backlog.
 - `Basic-old/` (224 файла) и zh-контент вне перевода.
 - Запуск dev-server: `pnpm dev` в корне репо (ветка `ru`).

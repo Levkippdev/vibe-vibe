@@ -9,16 +9,16 @@
 - `done` — урок пройден учеником (wizard завершён, артефакт заполнен).
 - `missing-in-en` — файла нет в en-версии.
 
-## Сводка (дата: 2026-08-31)
+## Сводка (дата: 2026-09-01)
 
 | Раздел | Переведено / Всего | %
 |---|---|---|
-| Basic | 11 / 47 | 23%
+| Basic | 16 / 47 | 34%
 | Advanced | 0 / 101 | 0%
 | Articles | 0 / 48 | 0%
 | Practice | 0 / 5 | 0%
 
-Курсор следующего пакета: `Basic/02-mindset/` (5 файлов).
+Курсор следующего пакета: `Basic/03-technique/` (5 файлов).
 
 ## Basic — карта уроков
 
@@ -35,11 +35,11 @@
 | 01-awakening/1.2-breaking-myths.md | translated | 2026-08-31 | pending |
 | 01-awakening/1.3-tools-guide.md | translated | 2026-08-31 | pending |
 | 01-awakening/1.4-vibe-vs-spec.md | translated | 2026-08-31 | pending |
-| 02-mindset/index.md | TODO | — | — |
-| 02-mindset/2.1-thinking-upgrade.md | TODO | — | — |
-| 02-mindset/2.2-inversion-thinking.md | TODO | — | — |
-| 02-mindset/2.3-subtraction-thinking.md | TODO | — | — |
-| 02-mindset/2.4-story-thinking.md | TODO | — | — |
+| 02-mindset/index.md | translated | 2026-09-01 | — |
+| 02-mindset/2.1-thinking-upgrade.md | translated | 2026-09-01 | pending |
+| 02-mindset/2.2-inversion-thinking.md | translated | 2026-09-01 | pending |
+| 02-mindset/2.3-subtraction-thinking.md | translated | 2026-09-01 | pending |
+| 02-mindset/2.4-story-thinking.md | translated | 2026-09-01 | pending |
 | 03-technique/index.md | TODO | — | — |
 | 03-technique/3.1-prompt-basics.md | TODO | — | — |
 | 03-technique/3.2-structured-frameworks.md | TODO | — | — |
@@ -91,6 +91,7 @@
 
 ## Примечания
 
+- Steps-файлы визарда: глава 0 — `00-preface.md`; глава 1 — `01-1...01-4` (по уроку); глава 2 — единый `02-local.md` (глава — один непрерывный workflow: экспорт → запуск → карта → правка).
 - Vue-компоненты в Advanced-уроках при переводе сохраняются как есть; их китайский UI — backlog.
 - `Basic-old/` (224 файла) и zh-контент вне перевода.
 - Запуск dev-server: `pnpm dev` в корне репо (ветка `ru`).

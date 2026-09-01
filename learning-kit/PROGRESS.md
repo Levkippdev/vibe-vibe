@@ -13,12 +13,12 @@
 
 | Раздел | Переведено / Всего | %
 |---|---|---|
-| Basic | 21 / 47 | 45%
+| Basic | 26 / 47 | 55%
 | Advanced | 0 / 101 | 0%
 | Articles | 0 / 48 | 0%
 | Practice | 0 / 5 | 0%
 
-Курсор следующего пакета: `Basic/04-practice-0-to-1/` (5 файлов).
+Курсор следующего пакета: `Basic/05-advanced/` (5 файлов).
 
 ## Basic — карта уроков
 
@@ -45,11 +45,11 @@
 | 03-technique/3.2-structured-frameworks.md | translated | 2026-09-01 | pending |
 | 03-technique/3.3-advanced-techniques.md | translated | 2026-09-01 | pending |
 | 03-technique/3.4-first-prd.md | translated | 2026-09-01 | pending |
-| 04-practice-0-to-1/index.md | TODO | — | — |
-| 04-practice-0-to-1/4.1-before-start.md | TODO | — | — |
-| 04-practice-0-to-1/4.2-build-page.md | TODO | — | — |
-| 04-practice-0-to-1/4.3-core-features.md | TODO | — | — |
-| 04-practice-0-to-1/4.4-data-storage.md | TODO | — | — |
+| 04-practice-0-to-1/index.md | translated | 2026-09-01 | — |
+| 04-practice-0-to-1/4.1-before-start.md | translated | 2026-09-01 | pending |
+| 04-practice-0-to-1/4.2-build-page.md | translated | 2026-09-01 | pending |
+| 04-practice-0-to-1/4.3-core-features.md | translated | 2026-09-01 | pending |
+| 04-practice-0-to-1/4.4-data-storage.md | translated | 2026-09-01 | pending |
 | 05-advanced/index.md | TODO | — | — |
 | 05-advanced/5.1-version-control.md | TODO | — | — |
 | 05-advanced/5.2-deployment.md | TODO | — | — |
@@ -91,7 +91,7 @@
 
 ## Примечания
 
-- Steps-файлы визарда: глава 0 — `00-preface.md`; глава 1 — `01-1...01-4` (по уроку); глава 2 — единый `02-local.md`; глава 3 — единый `03-style.md` (workflow выбора направления → трёх зон правок → шаблона промптов).
+- Steps-файлы визарда: глава 0 — `00-preface.md`; глава 1 — `01-1...01-4` (по уроку); глава 2 — единый `02-local.md`; глава 3 — единый `03-style.md`; глава 4 — единый `04-content.md` (snapshot → взгляд посетителя → выбор 2–3 модулей → навигация чата).
 - Vue-компоненты в Advanced-уроках при переводе сохраняются как есть; их китайский UI — backlog.
 - `Basic-old/` (224 файла) и zh-контент вне перевода.
 - Запуск dev-server: `pnpm dev` в корне репо (ветка `ru`).

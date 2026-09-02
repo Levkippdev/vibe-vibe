@@ -13,12 +13,12 @@
 
 | Раздел | Переведено / Всего | %
 |---|---|---|
-| Basic | 31 / 47 | 66%
+| Basic | 36 / 47 | 77%
 | Advanced | 0 / 101 | 0%
 | Articles | 0 / 48 | 0%
 | Practice | 0 / 5 | 0%
 
-Курсор следующего пакета: `Basic/06-launch/` (5 файлов).
+Курсор следующего пакета: `Basic/99-appendix/` (7 файлов).
 
 ## Basic — карта уроков
 
@@ -55,11 +55,11 @@
 | 05-advanced/5.2-deployment.md | translated | 2026-09-01 | pending |
 | 05-advanced/5.3-security.md | translated | 2026-09-01 | pending |
 | 05-advanced/5.4-iteration.md | translated | 2026-09-01 | pending |
-| 06-launch/index.md | TODO | — | — |
-| 06-launch/6.1-preflight.md | TODO | — | — |
-| 06-launch/6.2-deploy.md | TODO | — | — |
-| 06-launch/6.3-feedback.md | TODO | — | — |
-| 06-launch/6.4-wrap-up.md | TODO | — | — |
+| 06-launch/index.md | translated | 2026-09-01 | — |
+| 06-launch/6.1-preflight.md | translated | 2026-09-01 | pending |
+| 06-launch/6.2-deploy.md | translated | 2026-09-01 | pending |
+| 06-launch/6.3-feedback.md | translated | 2026-09-01 | pending |
+| 06-launch/6.4-wrap-up.md | translated | 2026-09-01 | pending |
 | 99-appendix/index.md | TODO | — | — |
 | 99-appendix/a-prompt-cheatsheet.md | TODO | — | — |
 | 99-appendix/b-errors-and-asking-ai.md | TODO | — | — |
@@ -91,7 +91,7 @@
 
 ## Примечания
 
-- Steps-файлы визарда: глава 0 — `00-preface.md`; глава 1 — `01-1...01-4` (по уроку); главы 2–5 — единые файлы: `02-local.md`, `03-style.md`, `04-content.md`, `05-twin.md`.
+- Steps-файлы визарда: глава 0 — `00-preface.md`; глава 1 — `01-1...01-4` (по уроку); главы 2–6 — единые файлы: `02-local.md`, `03-style.md`, `04-content.md`, `05-twin.md`, `06-launch.md`.
 - Vue-компоненты в Advanced-уроках при переводе сохраняются как есть; их китайский UI — backlog.
 - `Basic-old/` (224 файла) и zh-контент вне перевода.
 - Запуск dev-server: `pnpm dev` в корне репо (ветка `ru`).

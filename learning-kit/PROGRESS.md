@@ -13,12 +13,12 @@
 
 | Раздел | Переведено / Всего | %
 |---|---|---|
-| Basic | 43 / 47 | 91%
+| Basic | 47 / 47 | 100% |
 | Advanced | 0 / 101 | 0%
 | Articles | 0 / 48 | 0%
 | Practice | 0 / 5 | 0%
 
-Курсор следующего пакета: `Basic/100-epilogue/` + `101-next-part/` (4 файла — финал Basic).
+Курсор следующего пакета: `Advanced/01-environment-setup/` (по одной главе Advanced за сессию). Basic завершён — 100%.
 
 ## Basic — карта уроков
 
@@ -68,9 +68,9 @@
 | 99-appendix/e-api-key-env-security.md | translated | 2026-09-01 | — |
 | 99-appendix/f-vibe-coding-can-and-cannot.md | translated | 2026-09-01 | — |
 | 99-appendix/g-advanced-jump-map.md | translated | 2026-09-01 | — |
-| 100-epilogue/index.md | TODO | — | — |
-| 101-next-part/index.md | TODO | — | — |
-| 101-next-part/preview-advanced-content.md | TODO | — | — |
+| 100-epilogue/index.md | translated | 2026-09-01 | — |
+| 101-next-part/index.md | translated | 2026-09-01 | — |
+| 101-next-part/preview-advanced-content.md | translated | 2026-09-01 | — |
 
 ## Advanced — 101 файл (все TODO)
 

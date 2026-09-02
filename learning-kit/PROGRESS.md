@@ -13,12 +13,12 @@
 
 | Раздел | Переведено / Всего | %
 |---|---|---|
-| Basic | 36 / 47 | 77%
+| Basic | 43 / 47 | 91%
 | Advanced | 0 / 101 | 0%
 | Articles | 0 / 48 | 0%
 | Practice | 0 / 5 | 0%
 
-Курсор следующего пакета: `Basic/99-appendix/` (7 файлов).
+Курсор следующего пакета: `Basic/100-epilogue/` + `101-next-part/` (4 файла — финал Basic).
 
 ## Basic — карта уроков
 
@@ -60,14 +60,14 @@
 | 06-launch/6.2-deploy.md | translated | 2026-09-01 | pending |
 | 06-launch/6.3-feedback.md | translated | 2026-09-01 | pending |
 | 06-launch/6.4-wrap-up.md | translated | 2026-09-01 | pending |
-| 99-appendix/index.md | TODO | — | — |
-| 99-appendix/a-prompt-cheatsheet.md | TODO | — | — |
-| 99-appendix/b-errors-and-asking-ai.md | TODO | — | — |
-| 99-appendix/c-ui-cheatsheet.md | TODO | — | — |
-| 99-appendix/d-git-minimal-card.md | TODO | — | — |
-| 99-appendix/e-api-key-env-security.md | TODO | — | — |
-| 99-appendix/f-vibe-coding-can-and-cannot.md | TODO | — | — |
-| 99-appendix/g-advanced-jump-map.md | TODO | — | — |
+| 99-appendix/index.md | translated | 2026-09-01 | — |
+| 99-appendix/a-prompt-cheatsheet.md | translated | 2026-09-01 | — |
+| 99-appendix/b-errors-and-asking-ai.md | translated | 2026-09-01 | — |
+| 99-appendix/c-ui-cheatsheet.md | translated | 2026-09-01 | — |
+| 99-appendix/d-git-minimal-card.md | translated | 2026-09-01 | — |
+| 99-appendix/e-api-key-env-security.md | translated | 2026-09-01 | — |
+| 99-appendix/f-vibe-coding-can-and-cannot.md | translated | 2026-09-01 | — |
+| 99-appendix/g-advanced-jump-map.md | translated | 2026-09-01 | — |
 | 100-epilogue/index.md | TODO | — | — |
 | 101-next-part/index.md | TODO | — | — |
 | 101-next-part/preview-advanced-content.md | TODO | — | — |

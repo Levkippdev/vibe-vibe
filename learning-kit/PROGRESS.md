@@ -14,11 +14,12 @@
 | Раздел | Переведено / Всего | %
 |---|---|---|
 | Basic | 47 / 47 | 100% |
+| Advanced | 10 / 101 | 10% | |
 | Advanced | 0 / 101 | 0%
 | Articles | 0 / 48 | 0%
 | Practice | 0 / 5 | 0%
 
-Курсор следующего пакета: `Advanced/01-environment-setup/` (по одной главе Advanced за сессию). Basic завершён — 100%.
+Курсор следующего пакета: `Advanced/02-ai-tuning-guide/`. Done: Basic 100%; Advanced: 01-environment-setup (10 файлов, 2026-09-01).
 
 ## Basic — карта уроков
 
@@ -72,9 +73,29 @@
 | 101-next-part/index.md | translated | 2026-09-01 | — |
 | 101-next-part/preview-advanced-content.md | translated | 2026-09-01 | — |
 
-## Advanced — 101 файл (все TODO)
+## Advanced — 101 файл (10/101 translated)
 
-Все файлы перечислены в `docs/en/Advanced/` (16 глав + happy-coder + web-ide + 99-next-level). Перевод — по одной главе за сессию после завершения Basic.
+| Глава (docs/ru/Advanced/...) | Статус | Дата |
+|---|---|---|
+| 01-environment-setup/ (10 файлов: index, 00–08) | translated | 2026-09-01 |
+| 02-ai-tuning-guide/ | TODO | — |
+| 03-prd-doc-driven/ | TODO | — |
+| 04-dev-fundamentals/ | TODO | — |
+| 05-ui-ux/ | TODO | — |
+| 06-data-persistence-database/ | TODO | — |
+| 07-backend-api/ | TODO | — |
+| 08-auth-security/ | TODO | — |
+| 09-testing-automation/ | TODO | — |
+| 10-localhost-public-access/ | TODO | — |
+| 11-git-collaboration/ | TODO | — |
+| 12-serverless-deploy-cicd/ | TODO | — |
+| 13-domain-dns/ | TODO | — |
+| 14-vps-ops-deploy/ | TODO | — |
+| 15-seo-analytics/ | TODO | — |
+| 16-user-feedback-iteration/ | TODO | — |
+| happy-coder.md, web-ide.md, 99-next-level/, index.md | TODO | — |
+
+Перевод — по одной главе за сессию. Steps-файлы для Advanced опциональны (wizard — для Basic).
 
 ## Articles — 48 файлов (все TODO, опциональный приоритет)
 

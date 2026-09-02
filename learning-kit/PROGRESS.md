@@ -14,12 +14,12 @@
 | Раздел | Переведено / Всего | %
 |---|---|---|
 | Basic | 47 / 47 | 100% |
-| Advanced | 10 / 101 | 10% | |
+| Advanced | 17 / 101 | 17% | |
 | Advanced | 0 / 101 | 0%
 | Articles | 0 / 48 | 0%
 | Practice | 0 / 5 | 0%
 
-Курсор следующего пакета: `Advanced/02-ai-tuning-guide/`. Done: Basic 100%; Advanced: 01-environment-setup (10 файлов, 2026-09-01).
+Курсор следующего пакета: `Advanced/03-prd-doc-driven/`. Done: Basic 100%; Advanced: 01-environment-setup, 02-ai-tuning-guide (2026-09-02).
 
 ## Basic — карта уроков
 
@@ -73,12 +73,12 @@
 | 101-next-part/index.md | translated | 2026-09-01 | — |
 | 101-next-part/preview-advanced-content.md | translated | 2026-09-01 | — |
 
-## Advanced — 101 файл (10/101 translated)
+## Advanced — 101 файл (17/101 translated)
 
 | Глава (docs/ru/Advanced/...) | Статус | Дата |
 |---|---|---|
 | 01-environment-setup/ (10 файлов: index, 00–08) | translated | 2026-09-01 |
-| 02-ai-tuning-guide/ | TODO | — |
+| 02-ai-tuning-guide/ (7 файлов: index, 00–05) | translated | 2026-09-02 |
 | 03-prd-doc-driven/ | TODO | — |
 | 04-dev-fundamentals/ | TODO | — |
 | 05-ui-ux/ | TODO | — |

@@ -9,17 +9,16 @@
 - `done` — урок пройден учеником (wizard завершён, артефакт заполнен).
 - `missing-in-en` — файла нет в en-версии.
 
-## Сводка (дата: 2026-09-01)
+## Сводка (дата: 2026-09-02)
 
 | Раздел | Переведено / Всего | %
 |---|---|---|
 | Basic | 47 / 47 | 100% |
-| Advanced | 17 / 101 | 17% | |
-| Advanced | 0 / 101 | 0%
+| Advanced | 23 / 101 | 23%
 | Articles | 0 / 48 | 0%
 | Practice | 0 / 5 | 0%
 
-Курсор следующего пакета: `Advanced/03-prd-doc-driven/`. Done: Basic 100%; Advanced: 01-environment-setup, 02-ai-tuning-guide (2026-09-02).
+Курсор следующего пакета: `Advanced/04-dev-fundamentals/`. Done: Basic 100%; Advanced: 01-environment-setup, 02-ai-tuning-guide, 03-prd-doc-driven (2026-09-02).
 
 ## Basic — карта уроков
 
@@ -73,13 +72,13 @@
 | 101-next-part/index.md | translated | 2026-09-01 | — |
 | 101-next-part/preview-advanced-content.md | translated | 2026-09-01 | — |
 
-## Advanced — 101 файл (17/101 translated)
+## Advanced — 101 файл (23/101 translated)
 
 | Глава (docs/ru/Advanced/...) | Статус | Дата |
 |---|---|---|
 | 01-environment-setup/ (10 файлов: index, 00–08) | translated | 2026-09-01 |
 | 02-ai-tuning-guide/ (7 файлов: index, 00–05) | translated | 2026-09-02 |
-| 03-prd-doc-driven/ | TODO | — |
+| 03-prd-doc-driven/ (6 файлов: index, 00–04) | translated | 2026-09-02 |
 | 04-dev-fundamentals/ | TODO | — |
 | 05-ui-ux/ | TODO | — |
 | 06-data-persistence-database/ | TODO | — |

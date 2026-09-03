@@ -15,10 +15,10 @@
 |---|---|---|
 | Basic | 47 / 47 | 100% |
 | Advanced | 101 / 101 | 100% ✅
-| Articles | 20 / 48 | 42% |
+| Articles | 28 / 48 | 58% |
 | Practice | 5 / 5 | 100% ✅
 
-Курсор следующего пакета: `Articles/03-toolchain-frameworks/` (8 файлов). Done: Basic 100%; Advanced 100%; Practice 100%; Articles: index + 01-core-concepts (11) + 02-technical-architecture (8) — 2026-09-16. Остались категории 03–06 (28 файлов).
+Курсор следующего пакета: `Articles/04-engineering-practices/` (12 файлов). Done: Basic 100%; Advanced 100%; Practice 100%; Articles: index + 01-core-concepts (11) + 02-technical-architecture (8) + 03-toolchain-frameworks (8) — 2026-09-16. Остались категории 04–06 (20 файлов).
 
 ## Basic — карта уроков
 
@@ -101,7 +101,7 @@
 - index.md — translated (2026-09-16)
 - 01-core-concepts/ (10 файлов + index) — translated ✅ (2026-09-16): what-are-ai-agents-why-do-they-matter, what-you-need-to-know-about-vibe-coding, agentic-engineering, the-factory-model-how-coding-agents-changed-software-engineering, world-class-agent-engineer, specs-are-the-new-source-code, coding-agents-101, how-we-vibe-code-at-faang, vibe-coding-revolution-or-reckless-abandon, vibe-coding-is-not-an-excuse-for-low-quality-work
 - 02-technical-architecture/ (8 файлов) — translated ✅ (2026-09-16): index, how-claude-code-works, mcp-what-it-is-and-why-it-matters, build-agents-with-filesystems-and-bash, testing-bash-vs-sql, self-improving-coding-agents, multi-agent-systems-ai-native-engineering, nvidia-ai-5-layer-cake
-- 03-toolchain-frameworks/ (8 файлов) — TODO
+- 03-toolchain-frameworks/ (8 файлов) — translated ✅ (2026-09-16): index, claude-code-swarms, how-to-write-good-spec-for-ai-agents, ai-driven-prototyping-v0-bolt-and-lovable-compared, why-i-use-cline-for-ai-engineering, agents-md-vs-skills, complete-guide-to-building-skills-for-claude, we-removed-80-percent-tools
 - 04-engineering-practices/ (12 файлов) — TODO
 - 05-security-compliance/ (3 файла) — TODO
 - 06-business-trends/ (4 файла) — TODO

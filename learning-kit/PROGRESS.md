@@ -15,10 +15,10 @@
 |---|---|---|
 | Basic | 47 / 47 | 100% |
 | Advanced | 101 / 101 | 100% ✅
-| Articles | 0 / 48 | 0%
+| Articles | 12 / 48 | 25% |
 | Practice | 5 / 5 | 100% ✅
 
-Курсор следующего пакета: `Articles/` (48 файлов, опциональный приоритет — последний раздел). Done: Basic 100%; Advanced 100% (2026-09-16); Practice 100% (5 файлов — 2026-09-16).
+Курсор следующего пакета: `Articles/02-technical-architecture/` (8 файлов). Done: Basic 100%; Advanced 100%; Practice 100% (2026-09-16); Articles: index + 01-core-concepts полностью (11 файлов — 2026-09-16). Остались категории 02–06 (36 файлов).
 
 ## Basic — карта уроков
 
@@ -96,7 +96,15 @@
 
 Перевод — по одной главе за сессию. Steps-файлы для Advanced опциональны (wizard — для Basic).
 
-## Articles — 48 файлов (все TODO, опциональный приоритет)
+## Articles — 48 файлов (опциональный приоритет; 12/48 translated)
+
+- index.md — translated (2026-09-16)
+- 01-core-concepts/ (10 файлов + index) — translated ✅ (2026-09-16): what-are-ai-agents-why-do-they-matter, what-you-need-to-know-about-vibe-coding, agentic-engineering, the-factory-model-how-coding-agents-changed-software-engineering, world-class-agent-engineer, specs-are-the-new-source-code, coding-agents-101, how-we-vibe-code-at-faang, vibe-coding-revolution-or-reckless-abandon, vibe-coding-is-not-an-excuse-for-low-quality-work
+- 02-technical-architecture/ (8 файлов) — TODO
+- 03-toolchain-frameworks/ (8 файлов) — TODO
+- 04-engineering-practices/ (12 файлов) — TODO
+- 05-security-compliance/ (3 файла) — TODO
+- 06-business-trends/ (4 файла) — TODO
 
 Перевод после Advanced.
 

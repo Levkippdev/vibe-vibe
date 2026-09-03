@@ -9,16 +9,16 @@
 - `done` — урок пройден учеником (wizard завершён, артефакт заполнен).
 - `missing-in-en` — файла нет в en-версии.
 
-## Сводка (дата: 2026-09-04)
+## Сводка (дата: 2026-09-05)
 
 | Раздел | Переведено / Всего | %
 |---|---|---|
 | Basic | 47 / 47 | 100% |
-| Advanced | 41 / 101 | 41%
+| Advanced | 47 / 101 | 47%
 | Articles | 0 / 48 | 0%
 | Practice | 0 / 5 | 0%
 
-Курсор следующего пакета: `Advanced/06-data-persistence-database/`. Done: Basic 100%; Advanced: 01-environment-setup, 02-ai-tuning-guide, 03-prd-doc-driven (2026-09-02), 04-dev-fundamentals (2026-09-03), 05-ui-ux (2026-09-04).
+Курсор следующего пакета: `Advanced/07-backend-api/`. Done: Basic 100%; Advanced: 01-environment-setup, 02-ai-tuning-guide, 03-prd-doc-driven (2026-09-02), 04-dev-fundamentals (2026-09-03), 05-ui-ux (2026-09-04), 06-data-persistence-database (2026-09-05).
 
 ## Basic — карта уроков
 
@@ -72,7 +72,7 @@
 | 101-next-part/index.md | translated | 2026-09-01 | — |
 | 101-next-part/preview-advanced-content.md | translated | 2026-09-01 | — |
 
-## Advanced — 101 файл (41/101 translated)
+## Advanced — 101 файл (47/101 translated)
 
 | Глава (docs/ru/Advanced/...) | Статус | Дата |
 |---|---|---|
@@ -81,7 +81,7 @@
 | 03-prd-doc-driven/ (6 файлов: index, 00–04) | translated | 2026-09-02 |
 | 04-dev-fundamentals/ (11 файлов: index, 00–09) | translated | 2026-09-03 |
 | 05-ui-ux/ (7 файлов: index, 01–06) | translated | 2026-09-04 |
-| 06-data-persistence-database/ | TODO | — |
+| 06-data-persistence-database/ (6 файлов: index, 00–03, 05; в EN нет 04) | translated | 2026-09-05 |
 | 07-backend-api/ | TODO | — |
 | 08-auth-security/ | TODO | — |
 | 09-testing-automation/ | TODO | — |

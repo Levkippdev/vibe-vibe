@@ -9,16 +9,16 @@
 - `done` — урок пройден учеником (wizard завершён, артефакт заполнен).
 - `missing-in-en` — файла нет в en-версии.
 
-## Сводка (дата: 2026-09-14)
+## Сводка (дата: 2026-09-15)
 
 | Раздел | Переведено / Всего | %
 |---|---|---|
 | Basic | 47 / 47 | 100% |
-| Advanced | 92 / 101 | 91%
+| Advanced | 97 / 101 | 96%
 | Articles | 0 / 48 | 0%
 | Practice | 0 / 5 | 0%
 
-Курсор следующего пакета: `Advanced/16-user-feedback-iteration/`. Done: Basic 100%; Advanced: 01-environment-setup, 02-ai-tuning-guide, 03-prd-doc-driven (2026-09-02), 04-dev-fundamentals (2026-09-03), 05-ui-ux (2026-09-04), 06-data-persistence-database (2026-09-05), 07-backend-api (2026-09-06), 08-auth-security (2026-09-07), 09-testing-automation (2026-09-08), 10-localhost-public-access (2026-09-09), 11-git-collaboration (2026-09-10), 12-serverless-deploy-cicd (2026-09-11), 13-domain-dns (2026-09-12), 14-vps-ops-deploy (2026-09-13), 15-seo-analytics (2026-09-14).
+Курсор следующего пакета: `Advanced/happy-coder.md, web-ide.md, 99-next-level/, index.md` (хвост Advanced). Done: Basic 100%; Advanced: 01-environment-setup, 02-ai-tuning-guide, 03-prd-doc-driven (2026-09-02), 04-dev-fundamentals (2026-09-03), 05-ui-ux (2026-09-04), 06-data-persistence-database (2026-09-05), 07-backend-api (2026-09-06), 08-auth-security (2026-09-07), 09-testing-automation (2026-09-08), 10-localhost-public-access (2026-09-09), 11-git-collaboration (2026-09-10), 12-serverless-deploy-cicd (2026-09-11), 13-domain-dns (2026-09-12), 14-vps-ops-deploy (2026-09-13), 15-seo-analytics (2026-09-14), 16-user-feedback-iteration (2026-09-15).
 
 ## Basic — карта уроков
 
@@ -72,7 +72,7 @@
 | 101-next-part/index.md | translated | 2026-09-01 | — |
 | 101-next-part/preview-advanced-content.md | translated | 2026-09-01 | — |
 
-## Advanced — 101 файл (92/101 translated)
+## Advanced — 101 файл (97/101 translated)
 
 | Глава (docs/ru/Advanced/...) | Статус | Дата |
 |---|---|---|
@@ -91,7 +91,7 @@
 | 13-domain-dns/ (3 файла: index, 01–02) | translated | 2026-09-12 |
 | 14-vps-ops-deploy/ (9 файлов: index, 01–05, 03-1–03-4) | translated | 2026-09-13 |
 | 15-seo-analytics/ (5 файлов: index, 01–04) | translated | 2026-09-14 |
-| 16-user-feedback-iteration/ | TODO | — |
+| 16-user-feedback-iteration/ (5 файлов: index, 01–04) | translated | 2026-09-15 |
 | happy-coder.md, web-ide.md, 99-next-level/, index.md | TODO | — |
 
 Перевод — по одной главе за сессию. Steps-файлы для Advanced опциональны (wizard — для Basic).

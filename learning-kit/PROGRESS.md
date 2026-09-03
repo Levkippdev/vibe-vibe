@@ -15,10 +15,10 @@
 |---|---|---|
 | Basic | 47 / 47 | 100% |
 | Advanced | 101 / 101 | 100% ✅
-| Articles | 28 / 48 | 58% |
+| Articles | 40 / 48 | 83% |
 | Practice | 5 / 5 | 100% ✅
 
-Курсор следующего пакета: `Articles/04-engineering-practices/` (12 файлов). Done: Basic 100%; Advanced 100%; Practice 100%; Articles: index + 01-core-concepts (11) + 02-technical-architecture (8) + 03-toolchain-frameworks (8) — 2026-09-16. Остались категории 04–06 (20 файлов).
+Курсор следующего пакета: `Articles/05-security-compliance/` (3 файла). Done: Basic 100%; Advanced 100%; Practice 100%; Articles: index + 01-core-concepts (11) + 02-technical-architecture (8) + 03-toolchain-frameworks (8) + 04-engineering-practices (13) — 2026-09-16. Остались категории 05–06 (8 файлов).
 
 ## Basic — карта уроков
 
@@ -102,7 +102,7 @@
 - 01-core-concepts/ (10 файлов + index) — translated ✅ (2026-09-16): what-are-ai-agents-why-do-they-matter, what-you-need-to-know-about-vibe-coding, agentic-engineering, the-factory-model-how-coding-agents-changed-software-engineering, world-class-agent-engineer, specs-are-the-new-source-code, coding-agents-101, how-we-vibe-code-at-faang, vibe-coding-revolution-or-reckless-abandon, vibe-coding-is-not-an-excuse-for-low-quality-work
 - 02-technical-architecture/ (8 файлов) — translated ✅ (2026-09-16): index, how-claude-code-works, mcp-what-it-is-and-why-it-matters, build-agents-with-filesystems-and-bash, testing-bash-vs-sql, self-improving-coding-agents, multi-agent-systems-ai-native-engineering, nvidia-ai-5-layer-cake
 - 03-toolchain-frameworks/ (8 файлов) — translated ✅ (2026-09-16): index, claude-code-swarms, how-to-write-good-spec-for-ai-agents, ai-driven-prototyping-v0-bolt-and-lovable-compared, why-i-use-cline-for-ai-engineering, agents-md-vs-skills, complete-guide-to-building-skills-for-claude, we-removed-80-percent-tools
-- 04-engineering-practices/ (12 файлов) — TODO
+- 04-engineering-practices/ (13 файлов) — translated ✅ (2026-09-16): index, ai-writes-code-faster-your-job-is-to-prove-it-works, my-llm-coding-workflow-going-into-2026, avoiding-skill-atrophy-in-the-age-of-ai, ai-code-review-implementation, stop-using-init-for-agents, react-best-practices, beyond-the-70-maximizing-the-human-30-of-ai-assisted-coding, vercel-aeo-tracking, leading-effective-engineering-teams-in-the-age-of-genai, your-ai-coding-agents-need-a-manager, how-to-write-a-good-spec-for-ai-agents, video-generation-with-ai-gateway
 - 05-security-compliance/ (3 файла) — TODO
 - 06-business-trends/ (4 файла) — TODO
 

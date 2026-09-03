@@ -16,9 +16,9 @@
 | Basic | 47 / 47 | 100% |
 | Advanced | 101 / 101 | 100% ✅
 | Articles | 0 / 48 | 0%
-| Practice | 0 / 5 | 0%
+| Practice | 5 / 5 | 100% ✅
 
-Курсор следующего пакета: `Articles/` (48 файлов, опциональный приоритет) или `Practice/` (5 файлов). Done: Basic 100%; Advanced 100% — все 16 глав + хвост (happy-coder.md, web-ide.md, 99-next-level/, index.md — 2026-09-16).
+Курсор следующего пакета: `Articles/` (48 файлов, опциональный приоритет — последний раздел). Done: Basic 100%; Advanced 100% (2026-09-16); Practice 100% (5 файлов — 2026-09-16).
 
 ## Basic — карта уроков
 
@@ -100,14 +100,14 @@
 
 Перевод после Advanced.
 
-## Practice — 5 файлов en (у zh на 1 больше; расхождение помечено missing-in-en)
+## Practice — 5 файлов en, все translated ✅ (у zh на 1 больше; расхождение помечено missing-in-en)
 
-- ai-canvas-vibecoding-journey.md — TODO
-- ai-picture-book-generator.md — TODO
-- ai-resume-saas.md — TODO
-- full-stack-21-day-thinking-habit-game.md — TODO
-- index.md — TODO
-- vibe-coding-methodology.md — TODO
+- ai-canvas-vibecoding-journey.md — translated (2026-09-16)
+- ai-picture-book-generator.md — translated (2026-09-16)
+- ai-resume-saas.md — translated (2026-09-16)
+- full-stack-21-day-thinking-habit-game.md — TODO (missing-in-en: файла нет в en-версии, не переводим)
+- index.md — translated (2026-09-16)
+- vibe-coding-methodology.md — translated (2026-09-16)
 
 ## Примечания
 

@@ -40,11 +40,36 @@
 | Articles/06-business-trends/index.md | zh-delta (zh 63 / en 28) | translated ✅ | 2026-09-04 |
 | Articles/03-.../complete-guide-to-building-skills-for-claude.md | zh-delta (zh 1326 / en 313) | TODO | — |
 | Articles/01-.../what-are-ai-agents-why-do-they-matter.md | zh-delta (zh 426 / en 206) | TODO | — |
-| Articles/04-.../leading-effective-engineering-teams-in-the-age-of-genai.md | zh-delta (zh 392 / en 152) | TODO | — |
-| Articles/04-.../vercel-aeo-tracking.md | zh-delta (zh 337 / en 145) | TODO | — |
+| Articles/04-.../leading-effective-engineering-teams-in-the-age-of-genai.md | zh-delta (zh 392 / en 152) | translated ✅ (приложение «полная версия оригинала») | 2026-09-04 |
+| Articles/04-.../vercel-aeo-tracking.md | zh-delta (zh 337 / en 145; zh и en — разные статьи!) | TODO | — |
 | Articles/01-.../vibe-coding-revolution-or-reckless-abandon.md | zh-delta (zh 266 / en 121) | TODO | — |
-| Articles/04-.../ai-code-review-implementation.md | zh-delta (zh 259 / en 119) | TODO | — |
+| Articles/04-.../ai-code-review-implementation.md | zh-delta (zh 259 / en 119) | translated ✅ (перестроен по zh, en-only — в приложении) | 2026-09-04 |
 | Articles/05-.../ai-agents-threats-and-mitigations.md | zh-delta (zh 192 / en 96) | TODO | — |
+| Articles/01-.../coding-agents-101.md | zh-delta (zh 317 / en 196) | TODO | — |
+| Articles/02-.../how-claude-code-works.md | zh-delta (zh 280 / en 187) | TODO | — |
+| Articles/02-.../mcp-what-it-is-and-why-it-matters.md | zh-delta (zh 270 / en 181) | TODO | — |
+| Articles/04-.../how-to-write-a-good-spec-for-ai-agents.md | zh-delta (zh 264 / en 170) | TODO | — |
+| Articles/03-.../how-to-write-good-spec-for-ai-agents.md | zh-delta (zh 254 / en 187) | TODO | — |
+| Articles/03-.../why-i-use-cline-for-ai-engineering.md | zh-delta (zh 324 / en 225; ru 123 — короче даже en!) | TODO | — |
+| Articles/04-.../video-generation-with-ai-gateway.md | zh-delta (zh 266 / en 186) | TODO | — |
+| Articles/01-.../the-factory-model-...md | zh-delta (zh 186 / en 128) | TODO | — |
+| Articles/01-.../world-class-agent-engineer.md | zh-delta (zh 209 / en 172) | translated ✅ (вшит полный sycophancy-кейс, секция «Как понять, что работает», детали) | 2026-09-04 |
+| Articles/03-.../agents-md-vs-skills.md | zh-delta (zh 242 / en 226) | translated ✅ (вшиты zh-секции: хрупкость формулировок, eval'ы, интуиция, результаты, компрессия, codemod, уроки) | 2026-09-04 |
+| Articles/04-.../my-llm-coding-workflow-going-into-2026.md | zh-delta (zh 180 / en 113) | TODO | — |
+| Articles/05-.../security-boundaries-in-agentic-architectures.md | zh-delta (zh 159 / en 104) | TODO | — |
+| Articles/06-.../the-next-two-years-of-software-engineering.md | zh-delta (zh 168 / en 103) | TODO | — |
+| Articles/04-.../stop-using-init-for-agents.md | zh-delta (zh 191 / en 125) | TODO | — |
+| Articles/04-.../ai-writes-code-faster-....md | zh-delta (zh 153 / en 113) | TODO | — |
+| Articles/01-.../specs-are-the-new-source-code.md | zh-delta (zh 160 / en 119) | TODO | — |
+| Articles/01-.../vibe-coding-is-not-an-excuse-....md | zh-delta (zh 147 / en 121) | TODO | — |
+| Articles/04-.../react-best-practices.md | zh-delta (zh 158 / en 132) | TODO | — |
+| Articles/03-.../ai-driven-prototyping-....md | zh-delta (zh 187 / en 164) | TODO | — |
+| Articles/06-.../keeping-community-human-....md | zh-delta (zh 146 / en 123) | TODO | — |
+| Articles/04-.../beyond-the-70-....md | zh-delta (zh 154 / en 134) | TODO | — |
+| Articles/index.md | zh-delta (zh 52 / en 35) | TODO | — |
+| Articles/01-.../what-you-need-to-know-about-vibe-coding.md | zh-delta (zh 187 / en 172) | TODO | — |
+
+**Вывод сессии 2026-09-04:** en-версии Articles — самостоятельные сокращённые редакции zh (не подмножества, местами другой контент: пример — vercel-aeo-tracking, ai-code-review). Рабочая стратегия: ru перестраивать по структуре zh (полный перевод), уникальные en-only блоки сохранять в конце разделом «## Дополнительно (из en-версии)». Субагенты большие переводы (~200+ строк выхода) не вытягивают — падают без записи; переводить в основной сессии вручную. Мелкие дельты — точечным вшиванием через edit.
 
 Вне скоупа (backlog, как и прежде): zh-UI в 116 Vue-компонентах темы (~3600 строк), root-локаль zh в config.mts/modules, `Basic-old/`, `demos/`, `zh/index.md`.
 

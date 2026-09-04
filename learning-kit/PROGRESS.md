@@ -49,29 +49,31 @@
 | Articles/02-.../how-claude-code-works.md | zh-delta (zh 280 / en 187) | translated ✅ (перестроен по zh, 314 строк: 4 паттерна с реальными цитатами промптов, Bash tool, открытые вопросы; en-only — приложением) | 2026-09-04 |
 | Articles/02-.../mcp-what-it-is-and-why-it-matters.md | zh-delta (zh 270 / en 181) | translated ✅ (перестроен по zh, 268 строк: ELI5+Blender, история, архитектура, кейсы Figma/Unity/Zapier, старт, лимиты, будущее) | 2026-09-04 |
 | Articles/04-.../how-to-write-a-good-spec-for-ai-agents.md | zh-delta (zh 264 / en 170) | translated ✅ (перестроен по zh, 257 строк: plan mode, 6 доменов GitHub, Spec Kit 4 фазы, sub-agents, LLM-as-judge, анти-паттерны) | 2026-09-04 |
-| Articles/03-.../how-to-write-good-spec-for-ai-agents.md | zh-delta (zh 254 / en 187) | TODO | — |
+| Articles/03-.../how-to-write-good-spec-for-ai-agents.md | zh-delta (zh 254 / en 187) | translated ✅ (проверено: ru уже выше en; дельта закрыта ранее в rebuild 04-версии) | 2026-09-04 |
 | Articles/03-.../why-i-use-cline-for-ai-engineering.md | zh-delta (zh 324 / en 225; ru 123 — короче даже en!) | translated ✅ (перестроен по zh, 321 строка: 7 картинок, DeepSeek-R1+Sonnet, checkpoints, Computer Use, Plan/Act, MCP marketplace, сравнение конкурентов) | 2026-09-04 |
 | Articles/04-.../video-generation-with-ai-gateway.md | zh-delta (zh 266 / en 186) | translated ✅ (перестроен по zh, 263 строки: 4 типа генерации, 6 код-примеров, first-last frame, r2v) | 2026-09-04 |
-| Articles/01-.../the-factory-model-...md | zh-delta (zh 186 / en 128) | TODO | — |
+| Articles/01-.../the-factory-model-...md | zh-delta (zh 186 / en 128) | translated ✅ (вшито: Booch third age, Cursor quotes, секция «что не изменилось», TDD-шорткат, история ассемблер→C) | 2026-09-04 |
 | Articles/01-.../world-class-agent-engineer.md | zh-delta (zh 209 / en 172) | translated ✅ (вшит полный sycophancy-кейс, секция «Как понять, что работает», детали) | 2026-09-04 |
 | Articles/03-.../agents-md-vs-skills.md | zh-delta (zh 242 / en 226) | translated ✅ (вшиты zh-секции: хрупкость формулировок, eval'ы, интуиция, результаты, компрессия, codemod, уроки) | 2026-09-04 |
 | Articles/04-.../my-llm-coding-workflow-going-into-2026.md | zh-delta (zh 180 / en 113) | translated ✅ (перестроен по zh, 194 строки: 8 секций полностью; en-only паттерны — приложением) | 2026-09-04 |
-| Articles/05-.../security-boundaries-in-agentic-architectures.md | zh-delta (zh 159 / en 104) | TODO | — |
-| Articles/06-.../the-next-two-years-of-software-engineering.md | zh-delta (zh 168 / en 103) | TODO | — |
-| Articles/04-.../stop-using-init-for-agents.md | zh-delta (zh 191 / en 125) | TODO | — |
-| Articles/04-.../ai-writes-code-faster-....md | zh-delta (zh 153 / en 113) | TODO | — |
-| Articles/01-.../specs-are-the-new-source-code.md | zh-delta (zh 160 / en 119) | TODO | — |
-| Articles/01-.../vibe-coding-is-not-an-excuse-....md | zh-delta (zh 147 / en 121) | TODO | — |
-| Articles/04-.../react-best-practices.md | zh-delta (zh 158 / en 132) | TODO | — |
-| Articles/03-.../ai-driven-prototyping-....md | zh-delta (zh 187 / en 164) | TODO | — |
-| Articles/06-.../keeping-community-human-....md | zh-delta (zh 146 / en 123) | TODO | — |
-| Articles/04-.../beyond-the-70-....md | zh-delta (zh 154 / en 134) | TODO | — |
+| Articles/05-.../security-boundaries-in-agentic-architectures.md | zh-delta (zh 159 / en 104) | translated ✅ (перестроен по zh, 182 строки: log-injection demo, 4 участника, 4 архитектуры, 4 картинки; en-only — приложением) | 2026-09-04 |
+| Articles/06-.../the-next-two-years-of-software-engineering.md | zh-delta (zh 168 / en 103) | translated ✅ (перестроен по zh, 194 строки: 5 вопросов с данными и советами; en-only — приложением) | 2026-09-04 |
+| Articles/04-.../stop-using-init-for-agents.md | zh-delta (zh 191 / en 125) | translated ✅ (перестроен по zh, 225 строк: Lulla/ETH, розовый слон, 3-слойная архитектура, автооптимизация; en-only — приложением) | 2026-09-04 |
+| Articles/04-.../ai-writes-code-faster-....md | zh-delta (zh 153 / en 113) | translated ✅ (перестроен по zh, 168 строк: метрики PR+18%/24%/30%, security-статы, PR-контракт; en-only — приложением) | 2026-09-04 |
+| Articles/01-.../specs-are-the-new-source-code.md | zh-delta (zh 160 / en 119) | translated ✅ (вшито: bottleneck-интро, Danny-кейс с цитатой, гейткипинг, PM-аутлук) | 2026-09-04 |
+| Articles/01-.../vibe-coding-is-not-an-excuse-....md | zh-delta (zh 147 / en 121) | translated ✅ (вшито: 3 картинки, карточный домик-link, правила 2-7 расширены, кейсы детализированы, F1-школьный автобус) | 2026-09-04 |
+| Articles/04-.../react-best-practices.md | zh-delta (zh 158 / en 132) | translated ✅ (перестроен по zh, 181 строка: приоритизация, async-пример, продакшн-кейсы, Agent Skills) | 2026-09-04 |
+| Articles/03-.../ai-driven-prototyping-....md | zh-delta (zh 187 / en 164) | translated ✅ (вшито: 10 картинок, фичи-блоки v0/Bolt/Lovable, общие вызовы) | 2026-09-04 |
+| Articles/06-.../keeping-community-human-....md | zh-delta (zh 146 / en 123) | translated ✅ (перестроен по zh, 160 строк: Guardian, c0, метрики 281/4716, эволюция промптов; en-only — приложением) | 2026-09-04 |
+| Articles/04-.../beyond-the-70-....md | zh-delta (zh 154 / en 134) | translated ✅ (добавлено приложение: 7 навыков, сеньоры CHOP, джуны no-AI days, consumption-to-creation) | 2026-09-04 |
 | Articles/index.md | zh-delta (zh 52 / en 35) | translated ✅ (перестроен по zh: навигация по вопросам решений + «кому читать») | 2026-09-04 |
-| Articles/01-.../what-you-need-to-know-about-vibe-coding.md | zh-delta (zh 187 / en 172) | TODO | — |
+| Articles/01-.../what-you-need-to-know-about-vibe-coding.md | zh-delta (zh 187 / en 172) | translated ✅ (восстановлены 4 картинки) | 2026-09-04 |
 
 **Вывод сессии 2026-09-04:** en-версии Articles — самостоятельные сокращённые редакции zh (не подмножества, местами другой контент: пример — vercel-aeo-tracking, ai-code-review). Рабочая стратегия: ru перестраивать по структуре zh (полный перевод), уникальные en-only блоки сохранять в конце разделом «## Дополнительно (из en-версии)». Субагенты большие переводы (~200+ строк выхода) не вытягивают — падают без записи; переводить в основной сессии вручную. Мелкие дельты — точечным вшиванием через edit.
 
-**Вывод сессии 2026-09-04 (вторая, продолжение ru-zh):** закрыты ВСЕ тяжёлые дельты (13 файлов, каждый 190–1373 строк): skills-guide, what-are-ai-agents, vercel-aeo, vibe-coding-revolution, coding-agents-101, how-claude-code-works, mcp, spec-good (04), cline, video-generation, threats, my-llm-workflow + Articles/index.md. Техника подтверждена: полный rebuild по zh + «Дополнительно (из en-версии)» для уникального en-контента; для параллельных структур (coding-agents-101) — точечное вшивание. Остаток — 13 файлов с дельтой 12–67 строк (список ниже), приоритет: stop-using-init (66), next-two-years (65), factory-model (58), security-boundaries (55). zh-оригиналы содержат артефакты («обглупления»: дублированные/искажённые абзацы, 汉字-вставки) — переводить по смыслу, мусор не переносить; проверка grep '[一-鿿]' после каждого файла обязательна (ловились 适配ация/声明/产出/核心).
+**Вывод сессии 2026-09-04 (третий блок, завершение ru-zh):** zh-материал Articles ЗАВЕРШЁН полностью: все 40+ позиций таблицы ✅. Мелкие дельты (12–67 строк) закрывались точечным вшиванием (factory-model, specs, vibe-coding-excuse, prototyping, what-you-need-to-know) или приложением (beyond-the-70, threats). Картинки восстанавливать обязательно — zh вставляет их чаще ru/en (prototyping 10, what-you-need-to-know 4, vibe-coding-excuse 3).
+
+**Второй блок сессии:** закрыты ВСЕ тяжёлые дельты (13 файлов, каждый 190–1373 строк): skills-guide, what-are-ai-agents, vercel-aeo, vibe-coding-revolution, coding-agents-101, how-claude-code-works, mcp, spec-good (04), cline, video-generation, threats, my-llm-workflow + Articles/index.md. Техника подтверждена: полный rebuild по zh + «Дополнительно (из en-версии)» для уникального en-контента; для параллельных структур (coding-agents-101) — точечное вшивание. zh-оригиналы содержат артефакты («обглупления»: дублированные/искажённые абзацы, 汉字-вставки) — переводить по смыслу, мусор не переносить; проверка grep '[一-鿿]' после каждого файла обязательна (ловились 适配ация/声明/产出/核心/叠加/前提/看重/环境).
 
 Вне скоупа (backlog, как и прежде): zh-UI в 116 Vue-компонентах темы (~3600 строк), root-локаль zh в config.mts/modules, `Basic-old/`, `demos/`, `zh/index.md`.
 

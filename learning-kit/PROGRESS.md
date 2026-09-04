@@ -8,8 +8,9 @@
 - `translated` — русский перевод готов в `docs/ru/`.
 - `done` — урок пройден учеником (wizard завершён, артефакт заполнен).
 - `missing-in-en` — файла нет в en-версии.
+- `zh-delta` — в zh-оригинале есть материал сверх en-версии; переводится в существующий ru-файл (ветка `ru-zh`).
 
-## Сводка (дата: 2026-09-16)
+## Сводка (дата: 2026-09-04)
 
 | Раздел | Переведено / Всего | %
 |---|---|---|
@@ -19,6 +20,33 @@
 | Practice | 5 / 5 | 100% ✅
 
 ПЕРЕВОД ЗАВЕРШЁН ✅ (2026-09-16). Все разделы переведены на 100%: Basic 47/47; Advanced 101/101; Articles 48/48 (index + 01-core-concepts 11 + 02-technical-architecture 8 + 03-toolchain-frameworks 8 + 04-engineering-practices 13 + 05-security-compliance 3 + 06-business-trends 5); Practice 5/5. Итог: 201/201 файл.
+
+## zh-материал — ветка `ru-zh` (расширение скоупа, 2026-09-04)
+
+Задача: перевести китайский материал проекта, которого нет в en-зеркале, БЕЗ дублирования — единое зеркало `docs/ru/`, дельты zh→en вшиваются в существующие ru-файлы. Ветка `ru-zh` (от `ru`), пуш на fork (`Levkippdev/vibe-vibe`); слияние в `ru` — после завершения скоупа. Правила: en/zh не изменяем никогда; в начале каждой сессии пересчитывать скан zh↔en (если upstream переведёт материал в en — дельта обнулится сама).
+
+Пакеты: P0 zh-only → P1 индексы Articles + лёгкие дельты → P2 тяжёлые статьи (complete-guide-to-building-skills-for-claude и др.).
+
+| Файл | Тип | Статус | Дата |
+|---|---|---|---|
+| Practice/full-stack-21-day-thinking-habit-game.md | zh-only (321 стр.) | translated ✅ | 2026-09-04 |
+| deployment/index.md | zh-only (231 стр.; вне сайдбара, как у upstream) | translated ✅ | 2026-09-04 |
+| ru/Practice/index.md | +строка статьи | обновлён ✅ | 2026-09-04 |
+| Articles/01-core-concepts/index.md | zh-delta (zh 164 / en 35) | TODO | — |
+| Articles/02-technical-architecture/index.md | zh-delta (zh 119 / en 32) | TODO | — |
+| Articles/03-toolchain-frameworks/index.md | zh-delta (zh 119 / en 32) | TODO | — |
+| Articles/04-engineering-practices/index.md | zh-delta (zh 195 / en 37) | TODO | — |
+| Articles/05-security-compliance/index.md | zh-delta (zh 45 / en 25) | TODO | — |
+| Articles/06-business-trends/index.md | zh-delta (zh 63 / en 28) | TODO | — |
+| Articles/03-.../complete-guide-to-building-skills-for-claude.md | zh-delta (zh 1326 / en 313) | TODO | — |
+| Articles/01-.../what-are-ai-agents-why-do-they-matter.md | zh-delta (zh 426 / en 206) | TODO | — |
+| Articles/04-.../leading-effective-engineering-teams-in-the-age-of-genai.md | zh-delta (zh 392 / en 152) | TODO | — |
+| Articles/04-.../vercel-aeo-tracking.md | zh-delta (zh 337 / en 145) | TODO | — |
+| Articles/01-.../vibe-coding-revolution-or-reckless-abandon.md | zh-delta (zh 266 / en 121) | TODO | — |
+| Articles/04-.../ai-code-review-implementation.md | zh-delta (zh 259 / en 119) | TODO | — |
+| Articles/05-.../ai-agents-threats-and-mitigations.md | zh-delta (zh 192 / en 96) | TODO | — |
+
+Вне скоупа (backlog, как и прежде): zh-UI в 116 Vue-компонентах темы (~3600 строк), root-локаль zh в config.mts/modules, `Basic-old/`, `demos/`, `zh/index.md`.
 
 ## Basic — карта уроков
 
@@ -108,13 +136,13 @@
 
 Перевод после Advanced.
 
-## Practice — 5 файлов en, все translated ✅ (у zh на 1 больше; расхождение помечено missing-in-en)
+## Practice — 6 файлов (у zh на 1 больше; zh-only статья переведена на ветке `ru-zh`, см. секцию «zh-материал»)
 
 - ai-canvas-vibecoding-journey.md — translated (2026-09-16)
 - ai-picture-book-generator.md — translated (2026-09-16)
 - ai-resume-saas.md — translated (2026-09-16)
-- full-stack-21-day-thinking-habit-game.md — TODO (missing-in-en: файла нет в en-версии, не переводим)
-- index.md — translated (2026-09-16)
+- full-stack-21-day-thinking-habit-game.md — translated ✅ (2026-09-04, ветка `ru-zh`; zh-only, в en-версии файла нет)
+- index.md — translated (2026-09-16; на `ru-zh` добавлена строка 21-дневной игры)
 - vibe-coding-methodology.md — translated (2026-09-16)
 
 ## Примечания

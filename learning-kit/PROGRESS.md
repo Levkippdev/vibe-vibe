@@ -32,12 +32,12 @@
 | Practice/full-stack-21-day-thinking-habit-game.md | zh-only (321 стр.) | translated ✅ | 2026-09-04 |
 | deployment/index.md | zh-only (231 стр.; вне сайдбара, как у upstream) | translated ✅ | 2026-09-04 |
 | ru/Practice/index.md | +строка статьи | обновлён ✅ | 2026-09-04 |
-| Articles/01-core-concepts/index.md | zh-delta (zh 164 / en 35) | TODO | — |
-| Articles/02-technical-architecture/index.md | zh-delta (zh 119 / en 32) | TODO | — |
-| Articles/03-toolchain-frameworks/index.md | zh-delta (zh 119 / en 32) | TODO | — |
-| Articles/04-engineering-practices/index.md | zh-delta (zh 195 / en 37) | TODO | — |
-| Articles/05-security-compliance/index.md | zh-delta (zh 45 / en 25) | TODO | — |
-| Articles/06-business-trends/index.md | zh-delta (zh 63 / en 28) | TODO | — |
+| Articles/01-core-concepts/index.md | zh-delta (zh 164 / en 35) | translated ✅ | 2026-09-04 |
+| Articles/02-technical-architecture/index.md | zh-delta (zh 119 / en 32) | translated ✅ | 2026-09-04 |
+| Articles/03-toolchain-frameworks/index.md | zh-delta (zh 119 / en 32) | translated ✅ | 2026-09-04 |
+| Articles/04-engineering-practices/index.md | zh-delta (zh 195 / en 37) | translated ✅ | 2026-09-04 |
+| Articles/05-security-compliance/index.md | zh-delta (zh 45 / en 25) | translated ✅ | 2026-09-04 |
+| Articles/06-business-trends/index.md | zh-delta (zh 63 / en 28) | translated ✅ | 2026-09-04 |
 | Articles/03-.../complete-guide-to-building-skills-for-claude.md | zh-delta (zh 1326 / en 313) | TODO | — |
 | Articles/01-.../what-are-ai-agents-why-do-they-matter.md | zh-delta (zh 426 / en 206) | TODO | — |
 | Articles/04-.../leading-effective-engineering-teams-in-the-age-of-genai.md | zh-delta (zh 392 / en 152) | TODO | — |
